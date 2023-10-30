@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Fonts';
+  src: url('fonts/opensans2.tff') format('truetype');
+}
+
+body {
+  font-family: 'Fonts', sans-serif;
+}

@@ -1,0 +1,26 @@
+<DOCTYPE html>
+<html>
+
+<head>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.11.2/cdn/themes/light.css" />
+<script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.11.2/cdn/shoelace-autoloader.js"></script>
+
+<head>
+<body>
+<img src=data/images/logo.svg><img>
+
+<link rel="icon" href="data/images/tabicon.svg">
+<body>
+
+<sl-tab-group placement="start">
+  <sl-tab slot="nav" panel="Home">Home</sl-tab>
+  <sl-tab slot="nav" panel="FileExplorer">File Explorer</sl-tab>
+
+  <sl-tab-panel name="Home"><iframe src="tabs/home/tab.html" height=500 width=1000 frameborder=0.0001 ></iframe></sl-tab-panel>
+  <sl-tab-panel name="FileExplorer"><iframe src="tabs/file/tab.html" height=500 width=1000 frameborder=0.0001></iframe></sl-tab-panel>
+  
+  
+</sl-tab-group>
+
+<html>
